@@ -1,0 +1,262 @@
+body {
+  background: #f6f6fa;
+  padding: 40px 40px 40px 40px;
+  font-family: "Montserrat", sans-serif;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.wrapper {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+/* Main content */
+.main_content {
+  padding: 88px 80px 40px 80px;
+  box-sizing: border-box;
+}
+
+/* Sidebar */
+.aside {
+  background: #e0ebfe;
+  padding-top: 40px;
+  padding-top: 40px;
+  box-sizing: border-box;
+  width: 370px;
+}
+
+.sidebar_content {
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+}
+
+/* contacts */
+.contacts_title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.contact_type {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 8px;
+}
+
+.contacts_link {
+  color: #2979ff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+
+.contacts_element {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.contacts {
+  margin-bottom: 40px;
+}
+/* skills container */
+.skills {
+  margin-bottom: 40px;
+}
+
+.skills_title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.skills_list {
+  padding-left: 16px;
+}
+
+.skills_list_items {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* main content */
+.my_profession {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  margin-top: 0;
+}
+
+.my_name {
+  color: #000;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.my_description {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.my_info {
+  margin-bottom: 40px;
+}
+
+/* My Projects */
+.my_projects_title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.my_projects_item {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.my_projects_list {
+  padding-left: 16px;
+}
+
+.my_project_item_link {
+  color: #005fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+
+.my_prog_items_tech {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.my_projects {
+  margin-bottom: 40px;
+}
+
+/* work experiece */
+.work_experience_title {
+  color: #000;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.work_experinece_company {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.work_company {
+  color: #6d9bf5;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.work_period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 8px;
+}
+
+.work_splitter {
+  color: #000;
+}
+
+.work_duties_list {
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
+.work_duties_item {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.work_experience {
+  margin-bottom: 12px;
+}
+
+/* education */
+
+.education_title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.university {
+  color: #6d9bf5;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.specialisation {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.studing_period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.education_splitter{
+  color: #000; 
+}
