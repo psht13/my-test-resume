@@ -2,35 +2,54 @@ body {
   background: #f6f6fa;
   padding: 40px 40px 40px 40px;
   font-family: "Montserrat", sans-serif;
+  font-size-adjust: 100%;
 }
 ul,
 ol {
   margin-top: 0;
   margin-bottom: 0;
 }
-
+/* Стилі для контейнера .wrapper */
 .wrapper {
-  background: #ffffff;
+  background: white;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  width: 1280px;
+  flex-direction: row-reverse; /* Розміщення блоків в ряд */
+  justify-content: center; /* Горизонтальне вирівнювання по центру */
+  align-items: flex-start; /* Вертикальне вирівнювання зверху */
+  padding-left: 20px; /* Додайте відступи для кращого вигляду на різних екранах */
+  box-sizing: border-box;
+  padding-right: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  max-width: 1280px;
   margin: 0 auto;
+  border-radius: 5px;
 }
 
-/* Main content */
+.img {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Стилі для блоку .main_content */
 .main_content {
-  padding: 88px 80px 40px 80px;
-  box-sizing: border-box;
+  flex: 2; /* Займає дві третини доступної ширини */
+  max-width: 800px; /* Обмежте максимальну ширину, щоб уникнути надмірного розширення на великих екранах */
+  margin-top: 60px;
+  margin-left: 60px;
 }
 
-/* Sidebar */
+/* Стилі для блоку .aside (сайдбар) */
 .aside {
-  background: #e0ebfe;
-  padding-top: 40px;
-  padding-top: 40px;
+  flex: 1;
+  max-width: 370px;
+  background-color: #e0ebfe;
   box-sizing: border-box;
-  width: 370px;
+  border-radius: 5px;
+  padding-top: 40px;
+  min-height: 1366px;
+  max-height: 1000000px;
+
 }
 
 .sidebar_content {
@@ -257,6 +276,35 @@ ol {
   line-height: normal;
 }
 
-.education_splitter{
-  color: #000; 
+.education_splitter {
+  color: #000;
+}
+
+
+/* Медіа-запит для екранів менше 900px */
+@media screen and (max-width: 920px) {
+  .wrapper {
+    flex-direction: column-reverse; /* Розміщення блоків в стовпчик на малих екранах */
+    align-items: center; /* Вирівнює центрально по горизонталі на малих екранах */
+    padding: 0;
+    margin: 0;
+  }
+
+  .main_content {
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  .aside {
+    max-width: 100%; /* Максимальна ширина на малих екранах */
+    min-height: 10%;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  .my_name {
+    font-size: 28px;
+  }
 }
